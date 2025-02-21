@@ -1,17 +1,3 @@
-// import React from "react";
-
-// const Contact = () => {
-//   return (
-//     <div className="p-6 flex justify-center items-center align-middle h-[60vh] border-b-2">
-//       <h4 className="text-4xl font-bold">
-//         Contact information and / or Contact Form
-//       </h4>
-//     </div>
-//   );
-// };
-
-// export default Contact;
-
 import React, { useState } from 'react';
 
 const ContactForm = () => {
@@ -35,7 +21,7 @@ const ContactForm = () => {
   };
 
   return (
-    <section className="py-16 bg-gray-50">
+    <section id="contact" className="py-16 bg-gray-50">
       <div className="container mx-auto px-4">
         <h2 className="text-3xl font-bold text-center text-gray-800 mb-12">Get in Touch</h2>
         <div className="flex flex-col md:flex-row gap-8 items-center max-w-6xl mx-auto">
@@ -61,7 +47,7 @@ const ContactForm = () => {
                   name="name"
                   value={formData.name}
                   onChange={handleChange}
-                  className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#00A859] focus:border-transparent"
+                  className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#1e3a8a] focus:border-transparent"
                   required
                 />
               </div>
@@ -76,7 +62,7 @@ const ContactForm = () => {
                   name="email"
                   value={formData.email}
                   onChange={handleChange}
-                  className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#00A859] focus:border-transparent"
+                  className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#1e3a8a] focus:border-transparent"
                   required
                 />
               </div>
@@ -91,14 +77,14 @@ const ContactForm = () => {
                   value={formData.message}
                   onChange={handleChange}
                   rows="4"
-                  className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#00A859] focus:border-transparent"
+                  className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#1e3a8a] focus:border-transparent"
                   required
                 ></textarea>
               </div>
 
               <button
                 type="submit"
-                className="w-full bg-[#00A859] text-white py-3 px-6 rounded-md hover:bg-[#008647] transition-colors duration-300 font-medium"
+                className="w-full bg-[#1e3a8a] text-white py-3 px-6 rounded-md hover:bg-[#152b67] transition-colors duration-300 font-medium"
               >
                 Send Message
               </button>

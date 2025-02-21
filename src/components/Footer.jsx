@@ -4,7 +4,7 @@ import { Facebook, Twitter, Instagram, Linkedin } from 'lucide-react';
 const Footer = () => {
   return (
     <section className="contact">
-      <div className="bg-[#00A859] text-white py-10">
+      <div className="bg-[#1e3a8a] text-white py-10">
         <div className="container mx-auto px-4">
           <div className="flex flex-col md:flex-row justify-between gap-10">
             {/* Quick Links */}
@@ -13,11 +13,11 @@ const Footer = () => {
                 Quick Links
               </h4>
               <ul className="space-y-2">
-                <li><a href="#home" className="hover:text-[#ff9f00] transition-colors">Home</a></li>
-                <li><a href="#about" className="hover:text-[#ff9f00] transition-colors">About Us</a></li>
-                <li><a href="#services" className="hover:text-[#ff9f00] transition-colors">Our Services</a></li>
-                <li><a href="#mission" className="hover:text-[#ff9f00] transition-colors">Our Mission</a></li>
-                <li><a href="#privacy" className="hover:text-[#ff9f00] transition-colors">Privacy Policy</a></li>
+                <li><a href="#home" className="hover:text-blue-300 transition-colors">Home</a></li>
+                <li><a href="#about" className="hover:text-blue-300  transition-colors">About Us</a></li>
+                <li><a href="#services" className="hover:text-blue-300  transition-colors">Our Services</a></li>
+                <li><a href="#mission" className="hover:text-blue-300  transition-colors">Our Mission</a></li>
+                <li><a href="#privacy" className="hover:text-blue-300  transition-colors">Privacy Policy</a></li>
               </ul>
             </div>
 
@@ -42,7 +42,7 @@ const Footer = () => {
               <div className="flex gap-4">
                 <a
                   href="https://web.facebook.com/profile.php?id=61569947372606"
-                  className="hover:scale-110 transition-transform"
+                  className="hover:scale-110 transition-transform hover:text-blue-300"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -50,7 +50,7 @@ const Footer = () => {
                 </a>
                 <a
                   href="https://x.com/AgriVisionAI"
-                  className="hover:scale-110 transition-transform"
+                  className="hover:scale-110 transition-transform hover:text-blue-300"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -58,7 +58,7 @@ const Footer = () => {
                 </a>
                 <a
                   href="https://www.instagram.com/agrivisionai/"
-                  className="hover:scale-110 transition-transform"
+                  className="hover:scale-110 transition-transform hover:text-blue-300"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -66,7 +66,7 @@ const Footer = () => {
                 </a>
                 <a
                   href="https://www.linkedin.com/company/agrovision-ai-app"
-                  className="hover:scale-110 transition-transform"
+                  className="hover:scale-110 transition-transform hover:text-blue-300"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -77,7 +77,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="bg-[#1f1f1f] text-white py-3 text-center text-sm">
+      <div className="bg-[#152b67] text-white py-3 text-center text-sm">
         <p>Copyright ©2024 All rights reserved</p>
       </div>
     </section>
