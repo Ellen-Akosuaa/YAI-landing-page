@@ -17,7 +17,7 @@ const Hero = () => {
   }, []);
 
   return (
-    <section className="relative h-[90vh] flex items-center">
+    <section id="home" className="relative h-[90vh] flex items-center">
       {/* Background Image with Gradient Overlay */}
       <div className="absolute inset-0">
         <img

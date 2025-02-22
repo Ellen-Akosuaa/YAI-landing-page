@@ -15,9 +15,9 @@ const Footer = () => {
               <ul className="space-y-2">
                 <li><a href="#home" className="hover:text-blue-300 transition-colors">Home</a></li>
                 <li><a href="#about" className="hover:text-blue-300  transition-colors">About Us</a></li>
-                <li><a href="#services" className="hover:text-blue-300  transition-colors">Our Services</a></li>
-                <li><a href="#mission" className="hover:text-blue-300  transition-colors">Our Mission</a></li>
-                <li><a href="#privacy" className="hover:text-blue-300  transition-colors">Privacy Policy</a></li>
+                <li><a href="#ceo" className="hover:text-blue-300  transition-colors">Our CEO</a></li>
+                <li><a href="#products" className="hover:text-blue-300  transition-colors">Our Products</a></li>
+                {/* <li><a href="#privacy" className="hover:text-blue-300  transition-colors">Privacy Policy</a></li> */}
               </ul>
             </div>
 
@@ -27,10 +27,10 @@ const Footer = () => {
                 Contact Info
               </h4>
               <ul className="space-y-2">
-                <li>Honneycole R28</li>
-                <li>Amamoma, CapeCoast</li>
-                <li>+233 249 107 812</li>
-                <li>info@ketiwaent.com</li>
+                <li>Goaso - Ahafo Region</li>
+                <li>Municipal Assembly area</li>
+                <li>+233 242 624 925</li>
+                <li>feliciaserwaa351@gmail.com</li>
               </ul>
             </div>
 
@@ -78,7 +78,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="bg-[#152b67] text-white py-3 text-center text-sm">
-        <p>Copyright ©2024 All rights reserved</p>
+        <p>Copyright ©2025 All rights reserved</p>
       </div>
     </section>
   );

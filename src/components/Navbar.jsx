@@ -16,7 +16,7 @@ const Navbar = () => {
           <div className="flex items-center">
             <a href="#" className="flex items-center space-x-2">
               <Leaf className="h-8 w-8 text-[#1e3a8a]" />
-              <span className="text-xl font-bold text-[#1e3a8a]">AgriVision</span>
+              <span className="text-xl font-bold text-[#1e3a8a]">Ketiwa Enterprise</span>
             </a>
           </div>
 
@@ -24,8 +24,8 @@ const Navbar = () => {
           <div className="hidden md:flex items-center space-x-8">
             <a href="#home" className="text-gray-800 hover:text-[#1e3a8a] transition-colors">Home</a>
             <a href="#about" className="text-gray-800 hover:text-[#1e3a8a] transition-colors">About Us</a>
-            <a href="#services" className="text-gray-800 hover:text-[#1e3a8a] transition-colors">Services</a>
-            <a href="#mission" className="text-gray-800 hover:text-[#1e3a8a] transition-colors">Mission</a>
+            {/* <a href="#services" className="text-gray-800 hover:text-[#1e3a8a] transition-colors">Services</a> */}
+            <a href="#products" className="text-gray-800 hover:text-[#1e3a8a] transition-colors">Our Products</a>
             <a href="#contact" className="px-4 py-2 bg-[#1e3a8a] text-white rounded-md hover:bg-[#152b67] transition-colors">
               Contact Us
             </a>
