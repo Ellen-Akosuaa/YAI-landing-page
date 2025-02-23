@@ -28,7 +28,7 @@ const Footer = () => {
               </h4>
               <ul className="space-y-2">
                 <li>Goaso - Ahafo Region</li>
-                <li>Municipal Assembly area</li>
+                <li>Municipal Assembly Area</li>
                 <li>+233 242 624 925</li>
                 <li>feliciaserwaa351@gmail.com</li>
               </ul>

@@ -63,17 +63,17 @@ const Navbar = () => {
                 About Us
               </a>
               <a
-                href="#services"
+                href="#products"
                 className="block px-3 py-2 text-gray-800 hover:text-[#1e3a8a] transition-colors"
               >
-                Services
+                Our Products
               </a>
-              <a
+              {/* <a
                 href="#mission"
                 className="block px-3 py-2 text-gray-800 hover:text-[#1e3a8a] transition-colors"
               >
                 Mission
-              </a>
+              </a> */}
               <a
                 href="#contact"
                 className="block px-3 py-2 text-[#1e3a8a] font-medium"
