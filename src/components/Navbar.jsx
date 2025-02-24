@@ -14,7 +14,7 @@ const Navbar = () => {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <div className="flex items-center">
-            <a href="#" className="flex items-center space-x-2">
+            <a href="#home" className="flex items-center space-x-2">
               <Leaf className="h-8 w-8 text-[#1e3a8a]" />
               <span className="text-xl font-bold text-[#1e3a8a]">Ketiwa Enterprise</span>
             </a>
@@ -25,7 +25,7 @@ const Navbar = () => {
             <a href="#home" className="text-gray-800 hover:text-[#1e3a8a] transition-colors">Home</a>
             <a href="#about" className="text-gray-800 hover:text-[#1e3a8a] transition-colors">About Us</a>
             {/* <a href="#services" className="text-gray-800 hover:text-[#1e3a8a] transition-colors">Services</a> */}
-            <a href="#products" className="text-gray-800 hover:text-[#1e3a8a] transition-colors">Our Products</a>
+            <a href="#showcase" className="text-gray-800 hover:text-[#1e3a8a] transition-colors">Our Products</a>
             <a href="#contact" className="px-4 py-2 bg-[#1e3a8a] text-white rounded-md hover:bg-[#152b67] transition-colors">
               Contact Us
             </a>
@@ -63,7 +63,7 @@ const Navbar = () => {
                 About Us
               </a>
               <a
-                href="#products"
+                href="#showcase"
                 className="block px-3 py-2 text-gray-800 hover:text-[#1e3a8a] transition-colors"
               >
                 Our Products

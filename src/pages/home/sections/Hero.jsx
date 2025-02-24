@@ -17,7 +17,7 @@ const Hero = () => {
   }, []);
 
   return (
-    <section className="relative min-h-[100svh] flex items-center">
+    <section id='home' className="relative min-h-[100svh] flex items-center">
       <div className="absolute inset-0">
         <img
           src="https://images.unsplash.com/photo-1596040033229-a9821ebd058d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2940&q=80"
@@ -44,9 +44,12 @@ const Hero = () => {
           <p className="text-lg sm:text-xl md:text-2xl text-gray-200 mb-6 md:mb-8">
             Spice Up Your Meals, Boost Your Health – Naturally.
           </p>
-          <button className="w-full sm:w-auto px-6 sm:px-8 py-3 sm:py-4 bg-[#1e3a8a] text-white rounded-lg text-base sm:text-lg font-semibold hover:bg-[#152b67] transition-colors duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1">
+          <a 
+            href="#showcase"
+            className="inline-block w-full sm:w-auto px-6 sm:px-8 py-3 sm:py-4 bg-[#1e3a8a] text-white rounded-lg text-base sm:text-lg font-semibold hover:bg-[#152b67] transition-colors duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1"
+          >
             Shop Our Products
-          </button>
+          </a>
         </div>
       </div>
     </section>

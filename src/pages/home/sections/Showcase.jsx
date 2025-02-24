@@ -21,7 +21,7 @@ const Showcase = () => {
   ];
 
   return (
-    <section className="py-16 bg-gray-50">
+    <section id="showcase" className="py-16 bg-gray-50">
       <div className="container mx-auto px-4">
         <h2 className="text-4xl font-bold text-center text-[#1e3a8a] mb-12">
           Shop Our Products
