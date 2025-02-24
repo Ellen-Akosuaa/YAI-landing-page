@@ -28,8 +28,8 @@ const ContactForm = () => {
           {/* Image Section */}
           <div className="w-full md:w-1/2 h-[400px]">
             <img
-              src="https://images.unsplash.com/photo-1574943320219-553eb213f72d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2787&q=80"
-              alt="Farming Technology"
+              src="/images/lisa-hobbs-mRaNok_Ld6s-unsplash.jpg"
+              alt="Spices"
               className="w-full h-full object-cover rounded-lg shadow-lg"
             />
           </div>
