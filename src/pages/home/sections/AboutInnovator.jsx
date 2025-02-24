@@ -23,8 +23,8 @@ const AboutInnovator = () => {
             <h2 className="text-2xl font-semibold text-[#152b67]">Felicia Serwaa</h2>
             <div className="space-y-4">
               <p className="text-lg leading-relaxed text-gray-700">
-                Ketiwa Enterprise was founded by Felicia Serwaa, a determined entrepreneur, 
-                a physically challenged individual, and a single mother with a disability. 
+                Ketiwa Enterprise was founded by Felicia Serwaa, a determined entrepreneur
+                and a single mother with a disability. 
                 With a deep passion for self-reliance and empowerment, she established the 
                 business to prove that limitations do not define one's potential. Through 
                 Ketiwa Enterprise, she is championing the "We Can Do" spirit, inspiring 

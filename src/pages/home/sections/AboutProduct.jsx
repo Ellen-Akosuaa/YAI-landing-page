@@ -22,7 +22,7 @@ const AboutProduct = () => {
             100% Natural & Pure
           </h3>
           <p className="text-gray-600 text-center">
-            Carefully sourced and processed without additives, ensuring you get the best of nature's goodness.
+            Our spices are carefully sourced and processed without additives, ensuring you get the best of nature's goodness.
           </p>
         </div>
 
@@ -37,7 +37,7 @@ const AboutProduct = () => {
             Nutrient-Rich & Health-Boosting
           </h3>
           <p className="text-gray-600 text-center">
-            Packed with essential vitamins and minerals to support overall well-being and vitality.
+            Our spices are packed with essential vitamins and minerals to support overall well-being and vitality.
           </p>
         </div>
 

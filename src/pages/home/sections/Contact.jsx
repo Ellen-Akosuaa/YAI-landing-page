@@ -23,7 +23,7 @@ const ContactForm = () => {
   return (
     <section id="contact" className="py-16 bg-gray-50">
       <div className="container mx-auto px-4">
-        <h2 className="text-3xl font-bold text-center text-gray-800 mb-12">Get in Touch</h2>
+        <h2 className="text-4xl font-bold text-center text-[#1e3a8a] mb-12">Get In Touch</h2>
         <div className="flex flex-col md:flex-row gap-8 items-center max-w-6xl mx-auto">
           {/* Image Section */}
           <div className="w-full md:w-1/2 h-[400px]">
