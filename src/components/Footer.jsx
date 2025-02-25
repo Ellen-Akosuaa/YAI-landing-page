@@ -41,37 +41,37 @@ const Footer = () => {
               </h4>
               <div className="flex gap-4">
                 <a
-                  href="https://web.facebook.com/profile.php?id=61569947372606"
+                  href="https://www.facebook.com/share/1EyLLJy8k5/?mibextid=wwXIfr"
                   className="hover:scale-110 transition-transform hover:text-blue-300"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   <Facebook className="w-6 h-6" />
                 </a>
-                <a
+                {/* <a
                   href="https://x.com/AgriVisionAI"
                   className="hover:scale-110 transition-transform hover:text-blue-300"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   <Twitter className="w-6 h-6" />
-                </a>
+                </a> */}
                 <a
-                  href="https://www.instagram.com/agrivisionai/"
+                  href="https://www.instagram.com/ketiwaenterprise?igsh=MW4zY2N5bHdmZGp5eg%3D%3D&utm_source=qr"
                   className="hover:scale-110 transition-transform hover:text-blue-300"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   <Instagram className="w-6 h-6" />
                 </a>
-                <a
-                  href="https://www.linkedin.com/company/agrovision-ai-app"
+                {/* <a
+                  href="https://www.instagram.com/ketiwaenterprise?igsh=MW4zY2N5bHdmZGp5eg%3D%3D&utm_source=qr"
                   className="hover:scale-110 transition-transform hover:text-blue-300"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   <Linkedin className="w-6 h-6" />
-                </a>
+                </a> */}
               </div>
             </div>
           </div>

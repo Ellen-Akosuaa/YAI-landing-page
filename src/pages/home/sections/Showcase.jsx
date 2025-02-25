@@ -4,19 +4,19 @@ import { ShoppingCart } from 'lucide-react';
 const Showcase = () => {
   const products = [
     {
-      image: "/images/tamanna-rumee-RoGdv1kk5XM-unsplash.jpg",
-      title: "Premium Turmeric Powder",
-      description: "Our signature organic turmeric powder, sourced from the finest farms. Rich in curcumin and perfect for both culinary and wellness purposes."
+      image: "/images/ginger-1432262_1280.jpg",
+      title: "Premium Ginger Powder",
+      description: "Our signature organic ginger powder, sourced from the finest farms. Perfect for both culinary and wellness purposes."
     },
     {
-      image: "/images/sixteen-miles-out-HIejJTSTGJw-unsplash.jpg",
-      title: "Artisanal Cinnamon Sticks",
-      description: "Premium Ceylon cinnamon sticks with intense aroma and flavor. Hand-rolled and carefully selected for the perfect balance of sweetness and spice."
+      image: "/images/tea-5037947_1280.jpg",
+      title: "Prekese Tea Bags",
+      description: "Premium prekese made into powder to add to your meals for an intense aroma and flavor."
     },
     {
-      image: "/images/tamanna-rumee-dqVPEGkuR_U-unsplash.jpg",
-      title: "Exotic Spice Collection",
-      description: "A curated selection of our finest spices, including cardamom, cloves, and star anise. Perfect for exploring global cuisines."
+      image: "/images/spices-370114_1280.jpg",
+      title: "Turkey Berries Powder",
+      description: "A curated selection of our finest turkey berries(kwansusua) made into a powder form. Perfect for cooking and teas as well."
     }
   ];
 
