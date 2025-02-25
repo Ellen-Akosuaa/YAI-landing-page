@@ -10,8 +10,8 @@ const Hero = () => {
       setTimeout(() => {
         setIsFirstText(prev => !prev);
         setIsAnimating(false);
-      }, 500); // Half of the transition time
-    }, 4000); // Change text every 4 seconds
+      }, 500); 
+    }, 4000); 
 
     return () => clearInterval(interval);
   }, []);
@@ -46,7 +46,7 @@ const Hero = () => {
           </p>
           <a 
             href="#showcase"
-            className="inline-block w-full sm:w-auto px-6 sm:px-8 py-3 sm:py-4 bg-[#1e3a8a] text-white rounded-lg text-base sm:text-lg font-semibold hover:bg-[#152b67] transition-colors duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1"
+            className="w-full sm:w-auto px-6 sm:px-8 py-3 sm:py-4 bg-[#1e3a8a] text-white rounded-lg text-base sm:text-lg font-semibold hover:bg-[#152b67] transition-colors duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1"
           >
             Shop Our Products
           </a>
