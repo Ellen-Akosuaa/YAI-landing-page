@@ -1,5 +1,4 @@
 import React from "react";
-// import { Leaf, Heart, Sprout } from 'lucide-react';
 import { SparklesIcon, HeartIcon, GlobeAltIcon } from "@heroicons/react/24/outline";
 
 

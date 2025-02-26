@@ -26,9 +26,7 @@ const AboutInnovator = () => {
                 Ketiwa Enterprise was founded by Felicia Serwaa, a determined entrepreneur
                 and a single mother with a disability. 
                 With a deep passion for self-reliance and empowerment, she established the 
-                business to prove that limitations do not define one's potential. Through 
-                Ketiwa Enterprise, she is championing the "We Can Do" spirit, inspiring 
-                others to embrace resilience and independence.
+                business to prove that limitations do not define one's potential.
               </p>
               <p className="text-lg leading-relaxed text-gray-700">
                 Felicia's vision goes beyond just producing natural spices and herbal remedies. 
