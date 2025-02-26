@@ -4,14 +4,14 @@ const AboutInnovator = () => {
   return (
     <div id="ceo" className="min-h-screen bg-gradient-to-br from-blue-40 via-blue-40 to-blue-50">
       <div className="container mx-auto px-4 py-16">
-        <div className="flex flex-col lg:flex-row items-center gap-12">
+        <div className="flex flex-col lg:flex-row items-center gap-30">
 
           <div className="lg:w-1/2">
             <div className="relative">
               <img
-                src="/images/ceo.jpg"
+                src="/images/Picture12.jpg"
                 alt="CEO Felicia Serwaa"
-                className="relative z-10 w-full h-[600px] object-cover rounded-lg shadow-xl"
+                className="relative z-10 w-full h-[700px] object-cover rounded-lg shadow-xl"
               />
               <p className="text-sm text-gray-500 mt-2 text-center italic">
               </p>

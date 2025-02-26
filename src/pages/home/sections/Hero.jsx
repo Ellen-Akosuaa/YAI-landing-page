@@ -20,7 +20,7 @@ const Hero = () => {
     <section id='home' className="relative min-h-[100svh] flex items-center">
       <div className="absolute inset-0">
         <img
-          src="https://images.unsplash.com/photo-1596040033229-a9821ebd058d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2940&q=80"
+          src="/images/ratul-ghosh-NPrWYa69Mz0-unsplash.webp"
           alt="Spices Background"
           className="w-full h-full object-cover"
         />
@@ -45,7 +45,7 @@ const Hero = () => {
             Spice Up Your Meals, Boost Your Health – Naturally.
           </p>
           <a 
-            href="#showcase"
+            href="https://paystack.shop/550-natural-spices-and-teas"
             className="w-full sm:w-auto px-6 sm:px-8 py-3 sm:py-4 bg-[#1e3a8a] text-white rounded-lg text-base sm:text-lg font-semibold hover:bg-[#152b67] transition-colors duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1"
           >
             Shop Our Products

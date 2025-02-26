@@ -28,7 +28,7 @@ const ContactForm = () => {
           {/* Image Section */}
           <div className="w-full md:w-1/2 h-[400px]">
             <img
-              src="/images/lisa-hobbs-mRaNok_Ld6s-unsplash.jpg"
+              src="/images/lisa-hobbs-mRaNok_Ld6s-unsplash.webp"
               alt="Spices"
               className="w-full h-full object-cover rounded-lg shadow-lg"
             />
