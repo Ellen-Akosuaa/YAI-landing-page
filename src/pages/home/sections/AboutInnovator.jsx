@@ -2,7 +2,7 @@ import React from "react";
 
 const AboutInnovator = () => {
   return (
-    <div id="ceo" className="min-h-screen bg-gradient-to-br from-blue-40 via-blue-40 to-blue-50">
+    <div id="ceo" className="min-h-screen bg-gradient-to-br from-#2E7D32-40 via-#2E7D32-40 to-#2E7D32-50">
       <div className="container mx-auto px-4 py-16">
         <div className="flex flex-col lg:flex-row items-center gap-30">
 
@@ -19,8 +19,8 @@ const AboutInnovator = () => {
           </div>
 
           <div className="lg:w-1/2 space-y-6">
-            <h1 className="text-4xl font-bold text-[#1e3a8a]">Meet Our CEO</h1>
-            <h2 className="text-2xl font-semibold text-[#152b67]">Felicia Serwaa</h2>
+            <h1 className="text-4xl font-bold text-[#2E7D32]">Meet Our CEO</h1>
+            <h2 className="text-2xl font-semibold text-[#1B5E20]">Felicia Serwaa</h2>
             <div className="space-y-4">
               <p className="text-lg leading-relaxed text-gray-700">
                 Ketiwa Enterprise was founded by Felicia Serwaa, a determined entrepreneur
@@ -44,15 +44,15 @@ const AboutInnovator = () => {
             </div>
             <div className="flex gap-6 pt-4">
               <div className="text-center">
-                <div className="text-3xl font-bold text-[#1e3a8a]">50+</div>
+                <div className="text-3xl font-bold text-[#2E7D32]">50+</div>
                 <div className="text-sm text-gray-600">Future Jobs</div>
               </div>
               <div className="text-center">
-                <div className="text-3xl font-bold text-[#1e3a8a]">100%</div>
+                <div className="text-3xl font-bold text-[#2E7D32]">100%</div>
                 <div className="text-sm text-gray-600">Natural Products</div>
               </div>
               <div className="text-center">
-                <div className="text-3xl font-bold text-[#1e3a8a]">Local</div>
+                <div className="text-3xl font-bold text-[#2E7D32]">Local</div>
                 <div className="text-sm text-gray-600">Sourcing</div>
               </div>
             </div>

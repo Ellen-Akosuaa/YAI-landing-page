@@ -24,7 +24,7 @@ const Footer = () => {
 
   return (
     <section className="contact" ref={footerRef}>
-      <div className="bg-[#1e3a8a] text-white py-8 sm:py-12">
+      <div className="bg-[#2E7D32] text-white py-8 sm:py-12">
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 sm:gap-10">
             {/* Brief Description */}
@@ -117,7 +117,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="bg-[#152b67] text-white py-3 sm:py-4 text-center text-xs sm:text-sm">
+      <div className="bg-[#1B5E20] text-white py-3 sm:py-4 text-center text-xs sm:text-sm">
         <p className="text-white/80">Copyright ©2025 Ketiwa Enterprise. All rights reserved</p>
       </div>
     </section>

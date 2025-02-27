@@ -38,12 +38,12 @@ const Showcase = () => {
   return (
     <section id="showcase" className="py-16 bg-gray-50">
       <div className="container mx-auto px-4">
-        <h2 className="text-4xl font-bold text-center text-[#1e3a8a] mb-12">
+        <h2 className="text-4xl font-bold text-center text-[#2E7D32] mb-12">
           Shop Our Products
         </h2>
         <div className="grid md:grid-cols-3 gap-12">
           {products.map((product, index) => (
-            <div 
+            <div
               key={index}
               className="group relative bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2"
             >
@@ -61,14 +61,16 @@ const Showcase = () => {
                   </p>
                 </div>
               </div>
-              
+
               {/* Content */}
               <div className="p-6">
                 <h3 className="text-xl font-semibold text-gray-800 mb-4">
                   {product.title}
                 </h3>
                 <a href="https://paystack.shop/550-natural-spices-and-teas"
-                className="w-full bg-[#1e3a8a] text-white py-3 px-6 rounded-lg flex items-center justify-center space-x-2 hover:bg-[#152b67] transition-colors duration-300">
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-full bg-[#1B5E20] text-white py-3 px-6 rounded-lg flex items-center justify-center space-x-2 hover:bg-[#2E7D32] transition-colors duration-300">
                   <ShoppingCart className="w-5 h-5" />
                   <span>Shop Now</span>
                 </a>
