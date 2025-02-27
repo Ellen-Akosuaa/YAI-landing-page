@@ -118,7 +118,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="bg-[#1B5E20] text-white py-3 sm:py-4 text-center text-xs sm:text-sm">
-        <p className="text-white/80">Copyright ©2025 Ketiwa Enterprise. All rights reserved</p>
+        <p className="text-white/80">Copyright ©2025 Ketiwa Enterprise. All Rights Reserved.</p>
       </div>
     </section>
   );
