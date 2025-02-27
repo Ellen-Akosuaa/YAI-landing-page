@@ -1,6 +1,0 @@
-This favicon was generated using the following font:
-
-- Font Title: Corben
-- Font Author: undefined
-- Font Source: https://fonts.gstatic.com/s/corben/v21/LYjAdGzzklQtCMpFHCZgrXArXN7HWQ.ttf
-- Font License: undefined)
