@@ -3,8 +3,13 @@ import React, { useState, useEffect } from 'react';
 const Hero = () => {
   const [isFirstText, setIsFirstText] = useState(true);
   const [isAnimating, setIsAnimating] = useState(false);
+  const [isLoaded, setIsLoaded] = useState(false);
 
   useEffect(() => {
+    setTimeout(() => {
+      setIsLoaded(true);
+    }, 300);
+
     const interval = setInterval(() => {
       setIsAnimating(true);
       setTimeout(() => {
@@ -17,7 +22,8 @@ const Hero = () => {
   }, []);
 
   return (
-    <section id='home' className="relative min-h-[100svh] flex items-center">
+    <section id="home" className="relative min-h-[100svh] flex items-center justify-center">
+      {/* Background Image with Gradient Overlay */}
       <div className="absolute inset-0">
         <img
           src="/images/ratul-ghosh-NPrWYa69Mz0-unsplash.webp"
@@ -28,9 +34,9 @@ const Hero = () => {
       </div>
 
       {/* Content */}
-      <div className="relative container mx-auto px-4 mt-16 md:mt-20">
-        <div className="max-w-3xl mx-auto md:mx-0">
-          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight mb-4 md:mb-6">
+      <div className="relative container mx-auto px-4 text-center pt-16 md:pt-28">
+        <div className={`max-w-3xl mx-auto transition-all duration-1000 ${isLoaded ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
+          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight mb-4 md:mb-6 animate-fadeInUp">
             Pure Spices, Natural Remedies {' '}
             <span 
               className={`inline-block transition-all duration-1000 ${
@@ -41,12 +47,12 @@ const Hero = () => {
               {isFirstText ? 'Nourish Your Body' : 'Elevate Your Health'}
             </span>
           </h1>
-          <p className="text-lg sm:text-xl md:text-2xl text-gray-200 mb-6 md:mb-8">
+          <p className="text-lg sm:text-xl md:text-2xl text-gray-200 mb-6 md:mb-8 animate-fadeInUp delay-200">
             Spice Up Your Meals, Boost Your Health – Naturally.
           </p>
           <a 
             href="https://paystack.shop/550-natural-spices-and-teas"
-            className="w-full sm:w-auto px-6 sm:px-8 py-3 sm:py-4 bg-[#1e3a8a] text-white rounded-lg text-base sm:text-lg font-semibold hover:bg-[#152b67] transition-colors duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1"
+            className="inline-block px-6 sm:px-8 py-3 sm:py-4 bg-[#1e3a8a] text-white rounded-lg text-base sm:text-lg font-semibold hover:bg-[#152b67] transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1 animate-fadeInUp delay-400"
           >
             Shop Our Products
           </a>
