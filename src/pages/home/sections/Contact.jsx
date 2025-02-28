@@ -1,23 +1,35 @@
-import React, { useState } from 'react';
+import React, { useState, useRef } from 'react';
+import emailjs from '@emailjs/browser';
+import toast, { Toaster } from 'react-hot-toast';
+import { Loader2 } from 'lucide-react';
+
 
 const ContactForm = () => {
-  const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    message: ''
-  });
+  const [isLoading, setIsLoading] = useState(false);
+  const form = useRef();
 
-  const handleChange = (e) => {
-    setFormData({
-      ...formData,
-      [e.target.name]: e.target.value
-    });
-  };
-
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    // Handle form submission here
-    console.log('Form submitted:', formData);
+    setIsLoading(true);
+
+    try {
+      const result = await emailjs.sendForm(
+        'service_tmyu0xc', 
+        'template_grzqf0j', 
+        form.current,
+        'qU5VLx1hr73hWOpX4' 
+      );
+
+      if (result.text === 'OK') {
+        toast.success('Message sent successfully!');
+        form.current.reset();
+      }
+    } catch (error) {
+      console.error('Error:', error);
+      toast.error('Failed to send message. Please try again.');
+    } finally {
+      setIsLoading(false);
+    }
   };
 
   return (
@@ -36,33 +48,29 @@ const ContactForm = () => {
 
           {/* Form Section */}
           <div className="w-full md:w-1/2">
-            <form onSubmit={handleSubmit} className="bg-white p-8 rounded-lg shadow-lg">
+            <form ref={form} onSubmit={handleSubmit}  className="bg-white p-8 rounded-lg shadow-lg">
               <div className="mb-6">
-                <label htmlFor="name" className="block text-gray-700 text-sm font-medium mb-2">
+                <label htmlFor="user_name" className="block text-gray-700 text-sm font-medium mb-2">
                   Name
                 </label>
                 <input
                   type="text"
-                  id="name"
-                  name="name"
-                  value={formData.name}
-                  onChange={handleChange}
-                  className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#1B5E20] focus:border-transparent"
+                  id="use_name"
+                  name="user_name"
+                  className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#2E7D32] focus:border-transparent"
                   required
                 />
               </div>
 
               <div className="mb-6">
-                <label htmlFor="email" className="block text-gray-700 text-sm font-medium mb-2">
+                <label htmlFor="user_email" className="block text-gray-700 text-sm font-medium mb-2">
                   Email
                 </label>
                 <input
                   type="email"
-                  id="email"
-                  name="email"
-                  value={formData.email}
-                  onChange={handleChange}
-                  className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#1B5E20] focus:border-transparent"
+                  id="user_email"
+                  name="user_email"
+                  className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#2E7D32] focus:border-transparent"
                   required
                 />
               </div>
@@ -74,24 +82,33 @@ const ContactForm = () => {
                 <textarea
                   id="message"
                   name="message"
-                  value={formData.message}
-                  onChange={handleChange}
                   rows="4"
-                  className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#1B5E20] focus:border-transparent"
+                  className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#2E7D32] focus:border-transparent"
                   required
                 ></textarea>
               </div>
 
               <button
                 type="submit"
-                className="w-full bg-[#1B5E20] text-white py-3 px-6 rounded-md hover:bg-[#152b67] transition-colors duration-300 font-medium"
+                disabled={isLoading}
+                className="w-full bg-[#2E7D32] text-white py-3 px-6 rounded-md hover:bg-[#1B5E20] transition-colors duration-300 font-medium"
               >
+                 {isLoading ? (
+                    <>
+                      <Loader2 className="w-5 h-5 animate-spin" />
+                      Sending...
+                    </>
+                  ) : (
+                    <>
+                      </>
+                  )}
                 Send Message
               </button>
             </form>
           </div>
         </div>
       </div>
+      <Toaster position="bottom-right" />
     </section>
   );
 };

@@ -70,7 +70,7 @@ const Showcase = () => {
                 <a href="https://paystack.shop/550-natural-spices-and-teas"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="w-full bg-[#1B5E20] text-white py-3 px-6 rounded-lg flex items-center justify-center space-x-2 hover:bg-[#2E7D32] transition-colors duration-300">
+                  className="w-full bg-[#2E7D32] text-white py-3 px-6 rounded-lg flex items-center justify-center space-x-2 hover:bg-[#1B5E20] transition-colors duration-300">
                   <ShoppingCart className="w-5 h-5" />
                   <span>Shop Now</span>
                 </a>
