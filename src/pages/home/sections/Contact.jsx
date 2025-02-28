@@ -14,10 +14,10 @@ const ContactForm = () => {
 
     try {
       const result = await emailjs.sendForm(
-        'service_tmyu0xc', 
-        'template_grzqf0j', 
+        'service_y4rg9z8', 
+        'template_1p1lir3', 
         form.current,
-        'qU5VLx1hr73hWOpX4' 
+        'nqLGj1xplcfsyXKs-' 
       );
 
       if (result.text === 'OK') {
@@ -96,7 +96,6 @@ const ContactForm = () => {
                  {isLoading ? (
                     <>
                       <Loader2 className="w-5 h-5 animate-spin" />
-                      Sending...
                     </>
                   ) : (
                     <>
