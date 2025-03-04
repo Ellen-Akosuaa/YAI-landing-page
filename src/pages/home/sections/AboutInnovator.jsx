@@ -11,7 +11,7 @@ const AboutInnovator = () => {
               <img
                 src="/images/Picture12.jpg"
                 alt="CEO Felicia Serwaa"
-                className="relative z-10 w-full h-[700px] object-cover rounded-lg shadow-xl"
+                className="relative z-10 w-full h-[350px] lg:h-[700px] object-cover rounded-lg shadow-xl"
               />
               <p className="text-sm text-gray-500 mt-2 text-center italic">
               </p>
