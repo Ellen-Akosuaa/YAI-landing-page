@@ -67,8 +67,8 @@ const Navbar = () => {
               <a
                 key={section}
                 href={`#${section}`}
-                className={`text-gray-800 transition-colors relative after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-0 after:bg-[#2E7D32] after:transition-all hover:after:w-full ${
-                  activeSection === section ? "text-[#2E7D32] font-semibold after:w-full" : "hover:text-[#2E7D32]"
+                className={`text-black-800 transition-colors relative after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-0 after:bg-[#2E7D32] after:transition-all hover:after:w-full ${
+                  activeSection === section ? "text-[#2E7D32] font-bold after:w-full" : "hover:text-[#2E7D32]"
                 }`}
               >
                 {section === "home" ? "Home" : section === "about" ? "About Us" : section === "showcase" ? "Our Products" : "Contact Us"}
