@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Menu, X, Leaf } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -45,19 +45,22 @@ const Navbar = () => {
 
   return (
     <nav
-      className={`fixed w-full z-50 transition-all duration-300 ${
-        scrolled
+      className={`fixed w-full z-50 transition-all duration-300 ${scrolled
           ? "bg-white/90 backdrop-blur-md shadow-md py-2"
-          : "bg-white/80 backdrop-blur-sm py-4"
-      }`}
+          : "bg-white/100 backdrop-blur-sm py-4"
+        }`}
     >
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center">
           {/* Logo */}
           <div className="flex items-center">
             <a href="#" className="flex items-center space-x-2 group" onClick={closeMenu}>
-              <Leaf className="h-8 w-8 text-[#2E7D32] transition-transform duration-300 group-hover:rotate-12" />
-              <span className="text-xl font-bold text-[#2E7D32]">Ketiwa Enterprise</span>
+              <img
+                src="/images/ketiwa_logo_1zz.png"
+                alt="Ketiwa Enterprise Logo"
+                className="h-12 w-auto transition-transform duration-300 group-hover:scale-105"
+              />              
+              {/* <span className="text-xl font-bold text-[#2E7D32]">Ketiwa Enterprise</span> */}
             </a>
           </div>
 
@@ -67,9 +70,8 @@ const Navbar = () => {
               <a
                 key={section}
                 href={`#${section}`}
-                className={`text-black-800 transition-colors relative after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-0 after:bg-[#2E7D32] after:transition-all hover:after:w-full ${
-                  activeSection === section ? "text-[#2E7D32] font-bold after:w-full" : "hover:text-[#2E7D32]"
-                }`}
+                className={`text-black-800 transition-colors relative after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-0 after:bg-[#2E7D32] after:transition-all hover:after:w-full ${activeSection === section ? "text-[#2E7D32] font-bold after:w-full" : "hover:text-[#2E7D32]"
+                  }`}
               >
                 {section === "home" ? "Home" : section === "about" ? "About Us" : section === "showcase" ? "Our Products" : "Contact Us"}
               </a>

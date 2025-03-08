@@ -30,10 +30,14 @@ const Footer = () => {
             {/* Brief Description */}
             <div className="footer-reveal">
               <div className="flex items-center gap-3 mb-4 sm:mb-6">
-                <Leaf className="h-6 w-6 text-white/90" />
-                <h4 className="text-lg sm:text-xl font-semibold text-white/90">
+              <img
+                src="/images/ketiwa logo 1z.png"
+                alt="Ketiwa Enterprise Logo"
+                className="h-20 w-auto transition-transform duration-300 group-hover:scale-105"
+              />                 
+              {/* <h4 className="text-lg sm:text-xl font-semibold text-white/90">
                   Ketiwa Enterprise
-                </h4>
+                </h4> */}
               </div>
               <p className="text-white/80 leading-relaxed text-sm sm:text-base">
                 At Ketiwa Enterprise, we're dedicated to bringing you the finest quality spices and natural remedies.

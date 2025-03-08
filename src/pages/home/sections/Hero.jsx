@@ -41,7 +41,7 @@ const Hero = () => {
             <span
               className={`inline-block transition-all duration-1000 ${isAnimating ? 'opacity-0 transform -translate-y-4' : 'opacity-100 transform translate-y-0'
                 }`}
-              style={{ color: isFirstText ? '#A7C957' : '#A7C957' }}
+              style={{ color: isFirstText ? '#F4AC17' : '#F4AC17' }}
             >
               {isFirstText ? 'Nourish Your Body' : 'Elevate Your Health'}
             </span>
