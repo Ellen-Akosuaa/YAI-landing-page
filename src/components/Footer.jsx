@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from 'react';
-import { Facebook, Instagram, MapPin, Phone, Mail, Leaf } from 'lucide-react';
+import { Facebook, Instagram, MapPin, Phone, Mail } from 'lucide-react';
 
 const Footer = () => {
   const footerRef = useRef(null);
@@ -40,7 +40,7 @@ const Footer = () => {
                 </h4> */}
               </div>
               <p className="text-white/80 leading-relaxed text-sm sm:text-base">
-                At Ketiwa Enterprise, we're dedicated to bringing you the finest quality spices and natural remedies.
+                At Ketiwa Enterprise, we are dedicated to bringing you the finest quality spices, teas and natural remedies.
               </p>
             </div>
 

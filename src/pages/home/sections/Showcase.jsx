@@ -4,19 +4,19 @@ import { ShoppingCart } from 'lucide-react';
 const ProductShowcase = () => {
   const products = [
     {
-      image: "/images/ginger-1432262_1280.webp",
+      image: "/images/ginger.jpg",
       title: "Ginger Powder",
       description: "Our signature organic ginger powder, sourced from the finest farms. Perfect for both culinary and wellness purposes.",
       link: "https://paystack.com/buy/ginger-powder-oknkqd"
     },
     {
-      image: "/images/w.webp",
+      image: "/images/prekese.jpg",
       title: "Prekese Powder",
       description: "Premium prekese made into powder to add to your meals for an intense aroma and flavor.",
       link: "https://paystack.com/buy/prekese-powder-hgbutn"
     },
     {
-      image: "/images/turmeric-3089308_1280.webp",
+      image: "/images/turkey_berry.jpg",
       title: "Turkey Berries Powder",
       description: "A curated selection of our finest turkey berries(kwansusua) made into a powder form. Perfect for cooking.",
       link: "https://paystack.com/buy/turkey-berries-powder-tbscqj"
